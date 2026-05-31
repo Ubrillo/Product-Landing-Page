@@ -1,0 +1,422 @@
+
+    body{
+        max-width: 100%;
+        padding: 0px ;
+        margin: auto;
+        background-color: rgba(230, 230, 230, 0.3);
+        font-family: monospace;
+        font-size: 1.3em;
+        }
+
+    #header{
+        border-bottom: 1px solid black;
+        height: 100px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: rgb(240, 240, 240 );			
+        }
+
+    #nav-bar{
+        display: inline-block;
+        float: right;
+        margin-right: 60px;
+        margin-top: 22px;
+        }
+
+    #nav-bar ul{
+    padding-left: 10px;
+        }
+
+    #nav-bar ul li{
+        list-style-type: none;
+        display: inline;
+        padding: 0px 10px;
+        margin: 0px 20px;	
+        max-width: 100%;
+        font-family: pristina;
+        font-size: 1.2em;
+        font-weight: bold;
+        }
+
+#nav-bar ul li a{
+    text-decoration: none;
+}
+
+    #nav-bar ul li:hover .nav-link{
+        color: red;
+        text-decoration: underline;
+        }
+
+    @media (max-width: 800px){
+
+    #nav-bar{
+        border: 0px;
+        height: 100px;
+        padding-top: 0px;
+        display: inline-block;
+        float: right;
+        margin-right: 50px;
+        margin-top: 8px;
+        padding-right: 10px;
+        }
+
+    #nav-bar ul{
+        margin-top: -2px;
+        padding: 0px;
+       
+        }
+
+    #nav-bar ul li{
+        border: 0px;
+        margin-top: 1px;
+        display: block;
+        padding: 2px;
+        max-width: 100%;
+        font-family: pristina;
+        font-size: 0.9em;
+        text-align: center;
+        }
+        
+        #nav-bar ul li a{
+            text-decoration: underline;
+        }
+
+    #bar{
+        display:none;
+        }
+        }
+
+    #header-img{
+        position:fixed;
+        width: 100px;
+        height: 85px;
+        display: inline-block;
+        margin-top: 13px;
+        margin-left: 15px;
+        }
+
+    #dronename{
+        width: 210px;
+        margin-top: 40px;
+        display: inline-block;
+        margin-left: 120px;
+        font-family: pristina;
+        color: red;
+        position: fixed;
+        }
+
+    #wrapper{
+        max-width: 100%;
+        padding: 16px;
+        margin-top: 101px;
+        margin-bottom: 10px;
+        }
+
+    h1{
+        text-align: center;
+        max-width:  700px;
+        margin: auto;
+        margin-top: 40px;
+        font-family: Trebuchet MS;
+        font-size: 1.5em;
+        }
+
+    #form{
+        width: 350px;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        }
+
+    #email{
+        border: 1.5px solid black;
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 0.8em;
+        font-weight: bold;
+        }
+
+    #submit{
+        background: Lightgreen;
+        width: 150px;
+        height: 40px;
+        font-size: 0.8em;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 0px;
+        }
+
+    #submit:hover{
+        background: orange;
+    }
+
+
+    article{
+        max-width: 1000px;
+        margin: auto;
+        padding-top: 10px;
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        }
+
+    section{
+        text-align: left;
+        padding: 10px;
+        line-height: 1.5em;
+        }	
+
+    h3{
+        display: inline;
+        font-family: Trebuchet MS;
+        font-size: 1em;
+        }
+
+    #grid{
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: 100px auto;
+        grid-template-rows: auto auto auto auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        }
+
+    .grid1{background:; height:100px;}
+    .grid2{background:; height:100px;}
+    .grid3{background:; height:100px;}
+    .grid4{background:; height:100px;}
+
+    #video{
+        margin: auto;
+        margin-top: 10px;
+        padding-left: 20px;
+        max-width: 80%;
+        height: 300px;
+        border-radius: 0px;
+        display: block;
+        }	
+
+    #droneprice{
+        display: flex;
+        flex-direction: horizontal;
+        max-width: 1020px;
+        height: 440px;
+        margin: auto;
+        margin-top: 40px;
+        padding: 0em;
+        }
+
+    .quadcopter{
+        border: 1px solid black;
+        flex-basis: 50%;
+        margin-right: 15px;
+        border-radius: 7px;
+        text-align: center;
+        }
+
+    .quadh3{
+        background-color: rgb(240, 240, 240 );	
+        margin: auto;
+        margin-top: 0px;
+        max-width: 100%;
+        height: 30px;
+        text-align: center;
+        padding: 10px;
+        font-size: 1em;
+        display: block;
+        }
+
+    #img_quad{
+        display: block;
+        width: 100%;
+        }
+
+    .hexacopter{
+        border: 1px solid black;
+        flex-basis: 50%;
+        margin-right: 15px;
+        border-radius: 7px;
+        text-align: center;
+        display: block;
+         }
+
+    .hexah3{
+        background-color: rgb(240, 240, 240 );	
+        margin: auto;
+        margin-top: 0px;
+        max-width: 100%;
+        height: 30px;
+        text-align: center;
+        padding: 10px;
+        font-size: 1em;
+        display: block;
+        }
+
+    #img_hexa{
+        display: block;
+        width: 100%;
+        height: 180px;
+        margin-top: 10px;
+        }
+
+    .octocopter{
+        border: 1px solid black;
+        flex-basis: 50%;
+        display: block;
+        border-radius: 7px;
+        text-align: center;
+            }
+
+    #img_octo{
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+        height: 180px;
+        }
+
+    .octoh3{
+        background-color: rgb(240, 240, 240);	
+        margin: auto;
+        margin-top: 0px;
+        max-width: 100%;
+        height: 30px;
+        text-align: center;
+        padding: 10px;
+        font-size: 1em;
+        display: block;
+        }
+
+    .price{
+        text-align: center;
+        font-size: 1.3em;
+        padding: 10px;
+        }
+
+    #quadorder, #hexaorder, #octoorder{
+        background: Lightgreen;
+        width: 150px;
+        height: 40px;
+        font-size: 0.8em;
+        border-radius: 10px;
+        border: 0px;
+        margin: auto;
+    }
+
+    .orderlink {
+        text-decoration: none;
+        color: blue;
+        font-weight: bold;
+    }
+
+    .orderlink:hover {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+
+    #copyright{
+        text-align: center;
+
+        padding: 10px;
+    }
+
+    #copyrightname{
+        text-align: center;
+        padding: 10px;
+        margin-top: 1px;
+    }
+	
+
+    @media (max-width: 1000px){
+        
+        body{
+            max-width: 100%;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+
+    #video{
+        padding-left: 110px;
+        }
+
+    #droneprice{
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        height: 400px;
+        margin: auto;
+        margin-top: 20px;
+        padding-bottom: 50px;
+        height: 70em;
+        }
+
+    .quadcopter{
+        border: 1px solid black;
+        max-width: 400px;
+        margin-top: 15px;
+        margin: auto;
+        padding-bottom: 10px;
+        display: block;
+        }
+
+    .hexacopter{
+        margin: auto;
+        border: 1px solid black;
+        max-width: 400px;
+        margin: auto;
+        margin-top: 15px;
+        padding-bottom: 10px;
+        display: block;
+        }
+
+    .octocopter{
+        margin: auto;
+        margin-top: 15px;
+        border: 1px solid black;
+        max-width: 400px;
+        padding-bottom: 10px;
+        display: block;
+        }
+        }
+
+    #footer{
+        background:  rgba(220, 220, 220, 1);	
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 50px;
+		margin-bottom: 10px;
+        max-width: 1020px;
+        text-align: left;
+        display: block;
+        padding: 10px;
+        font-family: Trebuchet MS;
+    }
+
+    #footer ul{
+        text-align: right;
+        color: black;
+    }
+
+    #footer ul li a{
+        color: black;
+        padding: 0px 10px;
+		font-size: 0.9em;
+    }
+
+    #footer ul li{
+        color: black;
+        display: inline-block;
+        font-family: Trebuchet MS;
+    }
+
+    #copyrightname{
+        display: block;
+        text-align: right;
+        font-family: Trebuchet MS;
+        margin-right: 1px;
+		font-size: 0.9em;
+    }
+
